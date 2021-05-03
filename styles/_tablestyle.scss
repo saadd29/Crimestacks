@@ -1,0 +1,170 @@
+.abc{
+  background-color:rgb(34, 33, 33);
+}
+ .content-table {
+   
+    font-family:'Poppins', sans-serif;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+
+    thead tr {
+        background-color:#1f2833;
+        color: $txt_col;
+        text-align: left;
+        font-weight: bold;
+        border-bottom: $txt_col 3px solid;
+      }
+
+      tbody{
+  background-color: #1f2833;
+      }
+    th, td {
+                padding: 12px 15px;
+            }
+
+    tbody tr {
+                border-bottom: 1px solid $txt_col;
+                color: #fff;
+              }
+    tbody tr:nth-of-type(even) {
+                background-color: #f1e0c5;
+              }
+    // tbody tr:last-of-type {
+    // // border-bottom: 2px solid $txt_col;
+    // }
+  }
+
+  .display_table{
+    
+    display: flex;
+    justify-content: center;
+  }
+  .manage_icons{
+      font-size: 1.5em;
+      color:$txt_col;
+      margin:0px 5px;
+  }
+  .table-heading{
+    font-size: 6vh;
+    color:$txt_col;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    margin:30px 0px 10px 0px;
+    
+  }
+  .top_div{
+    display: flex;
+    justify-content: space-around;
+    input{
+      outline: none;
+      width: 400px;
+      font-size: 1.4em;
+    }
+  }
+  
+  .search{
+    margin-top: 30px;
+    input{
+      color: rgb(10, 10, 10);
+      height:35px;
+      font-size: 20px;
+      margin: 0 10px;
+      border-radius:50px;
+      padding-left: 10px;
+      outline:none;
+     }
+  
+    .search_btn{
+      color: $txt_col;
+      width:50px;
+     height: 50px;
+     background-color: $back_col;
+     font-size: 20px;
+    }
+  
+  }
+  .add_fir{
+    position:absolute;
+    top:50px;
+    left:480px;
+    padding-bottom: 50px;
+    h2{
+      color: $txt_col;
+      font-size: 2rem;
+      font-family: 'Poppins', sans-serif;
+  }
+  label{
+    width:210px;
+    display: inline-block;
+      color:$txt_col;
+      font-size: 1.35rem;
+      font-family: 'Poppins', sans-serif;
+  }
+  input{
+       
+       font-size: 20px;
+       margin: 0 10px;
+       outline: none;
+      padding:0 3px;
+       color: rgb(0, 0, 0);
+       background: #cccccc;
+       
+       
+    }
+    #fadd , #Iadd , #cs , #cd{
+      outline: none;
+      padding:0 3px;
+      color: black;
+      background: #cccccc;
+      font-size: 20px;
+      // margin: 0 10px;
+      font-family: 'Poppins', sans-serif;
+      
+   }
+    .upload-box{
+      font-size:13.5px ;
+      
+      background: #cccccc;
+      border-radius: 50px;
+      box-shadow: 2px 2px 6px black;
+      outline: none;
+    }
+    ::-webkit-file-upload-button{
+     font-weight: bold;
+      color: $back_col;
+      background : $txt_col;
+      padding: 6px 12px;
+      border : none;
+      border-radius: 50px;
+     
+      outline: none;
+      cursor: pointer;
+    }
+    .select{
+      padding: 6px 14px;
+      background: #cccccc;
+      border-radius: 50px;
+     
+      outline: none;
+      cursor: pointer;
+    }
+    .btn2{
+      width: 100%;
+      background: none;
+      border: 2px solid $txt_col;
+      color:$txt_col;
+      padding: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      margin: 12px 0;
+      &:hover{
+        background: $txt_col;
+        color:$back_col;
+      }
+    }
+  }
